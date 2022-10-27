@@ -1,0 +1,14 @@
+push -5
+push 264
+add
+first:
+push 250
+sub
+push -1
+mul
+dup
+jmp first:
+out
+out
+hlt
+push 2
